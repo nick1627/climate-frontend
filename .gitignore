@@ -1,0 +1,49 @@
+# Node dependencies
+node_modules/
+
+# Build output
+.next/
+out/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / IDE cruft
+.DS_Store
+Thumbs.db
+
+# Env files
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Optional: Vercel
+.vercel/
+
+# Optional: VS Code settings
+.vscode/
+
+# Optional: Mac-specific
+*.swp
+*.swo
+
+# Optional: testing / coverage
+coverage/
+
+# Optional: Turbo / caching
+turbo/
+
+# Optional: next telemetry
+.next-turbo/
+
+# Optional: bun
+.bun/
+
+# Optional: output from lint-staged/prettier/etc
+*.log
+*.tsbuildinfo
