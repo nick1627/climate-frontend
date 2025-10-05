@@ -46,3 +46,6 @@ Dev notes
 
 Create next.js react app
     npx create-next-app@latest
+
+To run:
+    npm run dev
