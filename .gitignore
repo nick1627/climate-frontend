@@ -1,49 +1,41 @@
-# Node dependencies
-node_modules/
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Build output
-.next/
-out/
-dist/
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
-# Logs
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
+.pnpm-debug.log*
 
-# OS / IDE cruft
-.DS_Store
-Thumbs.db
+# env files (can opt-in for committing if needed)
+.env*
 
-# Env files
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+# vercel
+.vercel
 
-# Optional: Vercel
-.vercel/
-
-# Optional: VS Code settings
-.vscode/
-
-# Optional: Mac-specific
-*.swp
-*.swo
-
-# Optional: testing / coverage
-coverage/
-
-# Optional: Turbo / caching
-turbo/
-
-# Optional: next telemetry
-.next-turbo/
-
-# Optional: bun
-.bun/
-
-# Optional: output from lint-staged/prettier/etc
-*.log
+# typescript
 *.tsbuildinfo
+next-env.d.ts
